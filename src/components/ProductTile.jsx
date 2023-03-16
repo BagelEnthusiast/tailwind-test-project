@@ -1,7 +1,7 @@
 const ProductTile = ({ img, content }) => (
   <div
     className="
-    flex flex-column items-start flex-wrap basis-auto
+    grid grid-rows-3
     p-[0px] gap-[8px]
     border-solid border-black border 2"
   >

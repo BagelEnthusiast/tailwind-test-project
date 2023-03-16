@@ -6,19 +6,16 @@ const App = () => (
   <div
     className="
     flex flex-column items-start flex-wrap
-    p-6 gap-8
-    border-solid border-black border 2"
+    p-6 gap-8"
   >
     <img
       src={logo}
-      className="
-        border-solid border-black border 2"
+      className=""
     ></img>
     <div
       className="
-        flex flex-column items-start flex-wrap
+        grid grid-cols-2
         p-0 gap-12
-        border-solid border-black border 2
         "
     >
       {products.map(product => (
